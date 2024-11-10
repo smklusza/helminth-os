@@ -5,33 +5,35 @@ system:
   repo-name: flathub-system
   repo-title: "Flathub (System)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
   install:
-    - org.gnome.Boxes
-    - org.gnome.Calculator
-    - org.gnome.Calendar
-    - org.gnome.Snapshot
-    - org.gnome.Contacts
-    - org.gnome.clocks
-    - com.belmoussaoui.Decoder
-    - org.gnome.Papers
-    - org.gnome.Maps
-    - org.gnome.TextEditor
-    - com.github.neithern.g4music
-    - com.github.rafostar.Clapper
-    - org.gnome.Loupe
-    - app.fotema.Fotema
+    # - org.gnome.Boxes
+    # - org.gnome.Calculator
+    # - org.gnome.Calendar
+    # - org.gnome.Snapshot
+    # - org.gnome.Contacts
+    # - org.gnome.clocks
+    # - com.belmoussaoui.Decoder
+    # - org.gnome.Papers
+    # - org.gnome.Maps
+    # - org.gnome.TextEditor
+    # - com.github.neithern.g4music
+    # - com.github.rafostar.Clapper
+    # - org.gnome.Loupe
+    # - app.fotema.Fotema
     - io.missioncenter.MissionCenter
     - org.gnome.World.Secrets
     - com.belmoussaoui.Authenticator
-    - com.vixalien.sticky
-    - com.toolstack.Folio
-    - com.github.flxzt.rnote
-    - org.localsend.localsend_app
-    - com.dec05eba.gpu_screen_recorder
+    # - com.vixalien.sticky
+    # - com.toolstack.Folio
+    # - com.github.flxzt.rnote
+    # - org.localsend.localsend_app
+    # - com.dec05eba.gpu_screen_recorder
+    - io.github.zen_browser.zen
     - com.github.tchx84.Flatseal
     - io.github.flattool.Warehouse
     - page.codeberg.libre_menu_editor.LibreMenuEditor
-    - com.mattjakeman.ExtensionManager
-    - com.github.wwmm.easyeffects
+    - md.obsidian.Obsidian
+    # - com.mattjakeman.ExtensionManager
+    # - com.github.wwmm.easyeffects
   remove:
     - io.gitlab.librewolf-community 
 user:
