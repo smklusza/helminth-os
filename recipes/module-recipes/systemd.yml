@@ -1,0 +1,15 @@
+type: systemd
+system:
+  enabled:
+    - dirty-centisecs.service
+    - memory-tweaks-gidro.service
+    - adbusers-append.service
+    - plugdev-append.service
+user:
+  enabled:
+    - flatpak-gidro@deluge.service
+    - flatpak-gidro@discord.service
+    - flatpak-gidro@armcord.service
+    - flatpak-gidro@steam.service
+    - flatpak-gidro@telegram.service
+    - flatpak-gidro@tutamail.service

@@ -1,0 +1,20 @@
+# Lock caps-lock fix setting
+/org/gnome/desktop/input-sources/xkb-options
+
+# Theming settings lock
+/org/gnome/desktop/interface/gtk-theme
+/org/gnome/desktop/interface/icon-theme
+/org/gnome/desktop/interface/gtk-enable-primary-paste
+
+# Remove old trash files setting lock
+/org/gnome/desktop/privacy/remove-old-trash-files
+
+# Gnome Software settings lock
+/org/gnome/software/allow-updates
+/org/gnome/software/download-updates
+/org/gnome/software/download-updates-notify
+/org/gnome/software/enable-repos-dialog
+/org/gnome/software/packaging-format-preference
+
+# Mutter settings lock
+/org/gnome/mutter/check-alive-timeout
