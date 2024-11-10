@@ -163,9 +163,9 @@ modules:
       - pamu2fcfg
       - yubikey-manager 
       # Gnome-specific
-      - adw-gtk3-theme
-      - gnome-epub-thumbnailer
-      - gvfs-nfs
+      # - adw-gtk3-theme
+      # - gnome-epub-thumbnailer
+      # - gvfs-nfs
       # Regular packages    
       - openssl
       - libratbag-ratbagd
