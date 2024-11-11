@@ -12,28 +12,28 @@ remove:
   - tuned-ppd
   - firefox
   - firefox-langpacks
-  - gnome-tour
-  - gnome-initial-setup
-  - gnome-system-monitor
-  - gnome-shell-extension-apps-menu
-  - gnome-shell-extension-background-logo
-  - gnome-shell-extension-launch-new-instance
-  - gnome-shell-extension-places-menu
-  - gnome-shell-extension-window-list
-  - gnome-classic-session
+  # - gnome-tour
+  # - gnome-initial-setup
+  # - gnome-system-monitor
+  # - gnome-shell-extension-apps-menu
+  # - gnome-shell-extension-background-logo
+  # - gnome-shell-extension-launch-new-instance
+  # - gnome-shell-extension-places-menu
+  # - gnome-shell-extension-window-list
+  # - gnome-classic-session
 
 install:
   - rom-properties-gtk3
-  - nautilus-python
+  # - nautilus-python
   - python3-icoextract
-  - gnome-randr-rust
+  # - gnome-randr-rust
   - langpacks-en
   - zsync
   - miniaturo
-  - printer-driver-brlaser
-  - epson-inkjet-printer-escpr
-  - epson-inkjet-printer-escpr2
-  - hplip
+  # - printer-driver-brlaser
+  # - epson-inkjet-printer-escpr
+  # - epson-inkjet-printer-escpr2
+  # - hplip
   - foo2zjs
   - uld
   - sg3_utils
@@ -43,3 +43,5 @@ install:
   - power-profiles-daemon
   - fontconfig-font-replacements
   - hardened-chromium
+  - R
+  - julia
