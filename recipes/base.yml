@@ -131,7 +131,7 @@ modules:
       - libswscale-free
       - default-fonts-cjk-sans
       - google-noto-sans-cjk-vf-fonts
-      - gnome-software-rpm-ostree
+      # - gnome-software-rpm-ostree
     install:
       # Font stuff
       - google-noto-sans-balinese-fonts
