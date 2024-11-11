@@ -5,4 +5,4 @@ scripts:
   - python3-icoextract.sh
   - morewaita.sh
   - initramfs.sh
-  - sleep-through-notifications.sh
+  # - sleep-through-notifications.sh
